@@ -112,13 +112,13 @@ hold-to-show-password = Przytrzymaj, aby pokazać hasło
 ## Errors
 
 error-404 =
-  .generic = The requested resource was not found.
-  .page = The requested page was not found.
-  .user = The requested user was not found.
+  .generic = Żądany zasób nie został odnaleziony.
+  .page = Wybrana strona nie została odnaleziona.
+  .user = Wybrany użytkownik nie został odnaleziony.
 
 error-form =
-  .missing-fields = Please fill in all the required fields.
-  .password-mismatch = Passwords do not match.
+  .missing-fields = Proszę wypełnij wszystkie wymagane pola.
+  .password-mismatch = Hasła się nie zgadzają.
 
 error-api =
   .GENERIC = Something went wrong with your request.
