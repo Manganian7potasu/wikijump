@@ -121,13 +121,13 @@ error-form =
   .password-mismatch = Hasła się nie zgadzają.
 
 error-api =
-  .GENERIC = Something went wrong with your request.
-  .INTERNAL = An internal server error has occurred. Please try again later.
-  .NO_CONNECTION = You are not connected to the internet.
-  .BAD_SYNTAX = The request could not be understood by the server.
-  .FORBIDDEN = You are not authorized to perform this action.
-  .NOT_FOUND = The requested resource was not found.
-  .CONFLICT = The requested resource is in conflict with another resource.
+  .GENERIC = Coś poszło nie tak.
+  .INTERNAL = Wystąpił problem wewnętrzny serwera. Proszę spróbować ponownie później.
+  .NO_CONNECTION = Brak połączenia internetowego.
+  .BAD_SYNTAX = Żądanie nie zostało rozpoznane przez serwer.
+  .FORBIDDEN = Nie jesteś upoważniony do wykonania tej czynności.
+  .NOT_FOUND = Żądany zasób nie został odnaleziony.
+  .CONFLICT = Żądany zasób jest w konflikcie z innym zasobem.
 
   .ACCOUNT_ALREADY_VERIFIED = This account has already been verified.
   .ACCOUNT_NO_EMAIL = This account does not have an email address.
@@ -146,4 +146,4 @@ error-api =
   .UNKNOWN_USER = There is no account with that username.
   .WRONG_PASSWORD = The password is incorrect.
 
-error-418 = I'm a Teapot
+error-418 = Jestem czajnikiem
