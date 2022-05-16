@@ -112,7 +112,7 @@ hold-to-show-password = Przytrzymaj, aby pokazać hasło
 ## Errors
 
 error-404 =
-  .generic = Żądany zasób nie został odnaleziony.
+  .generic = Żądana treść nie została odnaleziona.
   .page = Wybrana strona nie została odnaleziona.
   .user = Wybrany użytkownik nie został odnaleziony.
 
@@ -126,13 +126,13 @@ error-api =
   .NO_CONNECTION = Brak połączenia internetowego.
   .BAD_SYNTAX = Żądanie nie zostało rozpoznane przez serwer.
   .FORBIDDEN = Nie jesteś upoważniony do wykonania tej czynności.
-  .NOT_FOUND = Żądany zasób nie został odnaleziony.
-  .CONFLICT = Żądany zasób jest w konflikcie z innym zasobem.
+  .NOT_FOUND = Żądana treść nie została odnaleziona.
+  .CONFLICT = Żądana treść jest w konflikcie z inną treścią.
 
-  .ACCOUNT_ALREADY_VERIFIED = This account has already been verified.
-  .ACCOUNT_NO_EMAIL = This account does not have an email address.
-  .ALREADY_LOGGED_IN = You are already logged in.
-  .FAILED_TO_UPDATE_PROFILE = Failed to update profile.
+  .ACCOUNT_ALREADY_VERIFIED = Konto zostało już wcześniej zweryfikowane.
+  .ACCOUNT_NO_EMAIL = Konto nie ma załączonego adresu email.
+  .ALREADY_LOGGED_IN = Już jesteś zalogowany.
+  .FAILED_TO_UPDATE_PROFILE = Nie udało się aktualizować profilu.
   .INVALID_AVATAR = The uploaded file is not a valid image.
   .INVALID_EMAIL = The email address is invalid.
   .INVALID_LANGUAGE_CODE = The language code is invalid.
