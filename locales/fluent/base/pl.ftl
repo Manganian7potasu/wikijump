@@ -9,7 +9,7 @@
 ## Special
 
 # Shows whenever a message is still being loaded
-message-loading = Loading...
+message-loading = Ładowanie...
 
 goto-home = Wróć na stronę główną
 
