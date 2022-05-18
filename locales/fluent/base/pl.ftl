@@ -140,10 +140,10 @@ error-api =
   .INVALID_SESSION = Sesja wygasła. Zaloguj się ponownie.
   .INVALID_SPECIFIER = Nieprawidłowy adres email lub nazwa użytkownika.
   .INVALID_USERNAME = Nieprawdiłowa nazwa użytkownika.
-  .LOGIN_FAILED = Failed to log in. Please check your credentials.
+  .LOGIN_FAILED = Nie udało się zalogować. Sprawdź swoje dane konta.
   .NOT_LOGGED_IN = You are not logged in.
-  .UNKNOWN_EMAIL = There is no account with that email address.
-  .UNKNOWN_USER = There is no account with that username.
-  .WRONG_PASSWORD = The password is incorrect.
+  .UNKNOWN_EMAIL = Nie istnieje konto o takim adresie email.
+  .UNKNOWN_USER = Nie istnieje konto o takiej nazwie użytkownika.
+  .WRONG_PASSWORD = Nieprawidłowe hasło.
 
 error-418 = Jestem czajnikiem
