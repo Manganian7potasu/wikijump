@@ -7,11 +7,11 @@ cmftml-undocumented-block = Podany blok cmftl jest prawidłowy, ale nie istnieje
 cmftml-lint =
   .warning-source = ftml({ $rule } = { $kind } w { $token }) [{ NUMBER($from, useGrouping: 0) }, { NUMBER($to, useGrouping: 0) }]
 
-  .recursion-depth-exceeded = Too much recursion in markup.
+  .recursion-depth-exceeded = Zbyt dużo rekurencji w znaczniku.
 
-  .end-of-input = Rule of type '{ $rule }' couldn't be processed before the end of the document was reached.
+  .end-of-input = Typ reguły '{ $rule }' nie mógł zostać przetworzony przed osiągnięciem końca dokumentu.
 
-  .no-rules-matched = The string '{ $slice }' doesn't match anything and will be rendered as plain text.
+  .no-rules-matched = Wyszukiwanie '{ $slice }' nie zgadza się z żadnym źródłem, więc zostanie pokazany jako zwykły tekst.
 
   .rule-failed = The rule '{ $rule }' failed to match here, and had to fallback another rule.
 
