@@ -1,11 +1,11 @@
 ### CodeMirror FTML Extension
 
-cmftml-undocumented-block = This block is valid, but hasn't yet been documented.
+cmftml-undocumented-block = Podany blok cmftl jest prawidłowy, ale nie istnieje jeszcze jego dokumentacja.
 
 ## Linting
 
 cmftml-lint =
-  .warning-source = ftml({ $rule } = { $kind } at { $token }) [{ NUMBER($from, useGrouping: 0) }, { NUMBER($to, useGrouping: 0) }]
+  .warning-source = ftml({ $rule } = { $kind } w { $token }) [{ NUMBER($from, useGrouping: 0) }, { NUMBER($to, useGrouping: 0) }]
 
   .recursion-depth-exceeded = Too much recursion in markup.
 
