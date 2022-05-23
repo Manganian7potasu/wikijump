@@ -67,44 +67,44 @@ cmftml-lint =
 
 cmftml-accepts =
   .star =
-    This block accepts the '*' (star) prefix.
-    The effect of providing this prefix depends on the block.
+    Blok akceptuje prefiks '*' (gwiazdek).
+    Efekt użycia tego prefiksu zależy od bloku.
 
   .score =
-    This block accepts the '_' (score) suffix,
-    which will strip leading and trailing newlines.
+    Blok akceptuje sufiks '_' (wyniku),
+    który który usunie wiodące i końcowe znaki nowych linii.
 
   .newlines =
-    This block accepts newlines between its start and end nodes.
+    Blok akceptuje nowe linie między początkiem a końcem węzła (node).
 
   .html-attributes =
-    This block accepts generic HTML attributes/arguments.
-    HTML attributes are subject to a whitelist, but regardless most can be used.
+    Blok akceptuje rodzaj atrybutów/argumentów HTML.
+    Atrybuty HTML są obiektem na białej liście, ale większości z nich można użyć niezależnie.
 
 ## Block Argument Types
 
 cmftml-argument-none = NONE
-  .info = This block doesn't accept any arguments.
+  .info = Ten blok nie akceptuje żadnych argumentów.
 
 cmftml-argument-value = VALUE
-  .info = This block accepts text between the start and end of the node.
+  .info = Ten blok akceptuje tekst między początkiem a końcem węzła (node).
 
 cmftml-argument-map = MAP
-  .info = This block accepts arguments.
+  .info = Ten blok akceptuje argumenty.
 
 cmftml-argument-value-map = VALUE+MAP
-  .info = This block accepts text, and then following a space accepts arguments.
+  .info = Ten blok akceptuje tekst oraz argumenty, które są po spacji.
 
 ## Block Body Types
 
 cmftml-body-none = NONE
-  .info = This block has no body, and does not need a terminating node.
+  .info = Ten blok nie zawiera ciała (body) i nie wymaga końcowego węzła (node).
 
 cmftml-body-raw = RAW
-  .info = This block accepts a body, but interprets that body as raw text.
+  .info = Ten blok akceptuje ciało (body), ale interpretuje je jako czysty tekst.
 
 cmftml-body-elements = ELEMENTS
-  .info = This block accepts a body, and can nest additional elements within it.
+  .info = Ten blok akceptuje ciało (body) i może zagnieździć w nim dodatkowe elementy.
 
 cmftml-body-other = OTHER
-  .info = This block has a special syntax that isn't easily categorized.
+  .info = Ten blok używa specjalnej składni, która nie może być skategoryzowana.
