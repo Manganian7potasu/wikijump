@@ -1,6 +1,6 @@
 ### CodeMirror FTML Extension
 
-cmftml-undocumented-block = Podany blok cmftl jest prawidłowy, ale nie istnieje jeszcze jego dokumentacja.
+cmftml-undocumented-block = Podany blok jest prawidłowy, ale nie istnieje jeszcze jego dokumentacja.
 
 ## Linting
 
@@ -11,7 +11,7 @@ cmftml-lint =
 
   .end-of-input = Reguła typu '{ $rule }' nie mogła zostać przetworzona przed osiągnięciem końca dokumentu.
 
-  .no-rules-matched = Wyszukiwanie '{ $slice }' nie zgadza się z żadnym źródłem, więc zostanie pokazane jako zwykły tekst.
+  .no-rules-matched = Wyszukiwanie '{ $slice }' nie zgadza się z żadnym źródłem, więc zostanie pokazana jako czysty tekst.
 
   .rule-failed = Reguła '{ $rule }' nie wyszukała nic w tym miejscu i musiała wycofać inną regułę.
 
@@ -21,15 +21,15 @@ cmftml-lint =
 
   .list-empty = W tej liście nic się nie znajduje.
 
-  .list-contains-non-item = Lista ma bezpośrednią klasę dziedziczącą, która nie jest blokiem list-item.
+  .list-contains-non-item = Lista ma bezpośrednie węzły potomne, które nie są blokami list-item.
 
   .list-item-outside-list = Ten obiekt list-item nie jest w liście.
 
   .list-depth-exceeded = Lista jest zagnieżdżona zbyt głęboko i nie może być wygenerowana.
 
-  .table-contains-non-row = Tabela ma bezpośrednią klasę dziedziczącą, która nie jest wierszem tabeli.
+  .table-contains-non-row = Tabela ma bezpośrednie węzły potomne, które nie są wierszami tabeli.
 
-  .table-row-contains-non-cell = Wiersz tabeli ma bezpośrednią klasę dziedziczącą, która nie jest komórką tabeli.
+  .table-row-contains-non-cell = Wiersz tabeli ma bezpośrednie węzły potomne, które nie są komórkamk tabeli.
 
   .table-row-outside-table = Wiesz nie znajduje się w tabeli.
 
