@@ -21,49 +21,47 @@ cmftml-lint =
 
   .list-empty = W tej liście nic się nie znajduje.
 
-  .list-contains-non-item = This list has direct children that aren't list-item blocks.
+  .list-contains-non-item = Lista ma bezpośrednią klasę dziedziczącą, która nie jest blokiem list-item.
 
-  .list-item-outside-list = This list-item isn't within a list.
+  .list-item-outside-list = Ten obiekt list-item nie jest w liście.
 
-  .list-depth-exceeded = This list is nested too deeply, and can't be rendered.
+  .list-depth-exceeded = Lista jest zagnieżdżona zbyt głęboko i nie może być wygenerowana.
 
-  .table-contains-non-row = This table has direct children that aren't table rows.
+  .table-contains-non-row = Tabela ma bezpośrednią klasę dziedziczącą, która nie jest wierszem tabeli.
 
-  .table-row-contains-non-cell = This table-row has direct children that aren't cells.
+  .table-row-contains-non-cell = Wiersz tabeli ma bezpośrednią klasę dziedziczącą, która nie jest komórką tabeli.
 
-  .table-row-outside-table = This table-row isn't within a table.
+  .table-row-outside-table = Wiesz nie znajduje się w tabeli.
 
-  .table-cell-outside-table = This table-cell isn't within a table-row.
+  .table-cell-outside-table = Komórka tabeli nie znajduje się w wierszu.
 
-  .footnotes-nested = This footnote is invalid because it's inside another footnote.
+  .footnotes-nested = Przypis jest nieprawidłowy, ponieważ znajduje się w innym przypisie.
 
-  .blockquote-depth-exceeded = This blockquote is nested too deeply, and can't be rendered.
-
+  .blockquote-depth-exceeded = Blockquote jest zagnieżdżony zbyt głęboko i nie może być wygenerowany.
   .no-such-block = Unknown block '{ $slice }'.
 
-  .block-disallows-star = Block '{ $slice }' doesn't support a star invocation. (starting '*' character)
+  .block-disallows-star = Blok '{ $slice }' nie obsługuje gwiazdek. (rozpoczynających się znakiem '*')
 
-  .block-disallows-score = Block '{ $slice }' doesn't support a score invocation. (starting '_' character)
+  .block-disallows-score = Blok '{ $slice }' nie obaługuje wyników. (rozpoczynających się zmakiem '_')
 
-  .block-missing-name = Block '{ $slice }' requires a name/value, but none is specified.
+  .block-missing-name = Blok '{ $slice }' wymaga nazwy lub wartości, której nie podano.
 
-  .block-missing-close-brackets = This block is missing closing ']]' brackets.
+  .block-missing-close-brackets = W bloku brakuje nawiasów zamykających ']]'.
 
-  .black-malformed-arguments = Block '{ $slice }' has malformed arguments.
+  .black-malformed-arguments = Blok '{ $slice }' zniekształcił argumenty.
 
-  .block-missing-arguments = Block '{ $slice }' is missing one or more required arguments.
+  .block-missing-arguments = W bloku '{ $slice }' brakuje jednego lub więcej wymaganych argumentów.
 
-  .block-expected-end = The block of type '{ $rule }' was expected to end by at least this point.
+  .block-expected-end = Blok typu '{ $rule }' powinien być zakończony w tym miejscu.
+  .block-end-mismatch = Blok typu '{ $rule }' powinien zamończyć się tutaj, a nie w '{ $slice }'.
 
-  .block-end-mismatch = The block of type '{ $rule }' was expected to end here, not '{ $slice }'.
+  .no-such-module = Nieznany moduł '{ $slice }'.
 
-  .no-such-module = Unknown module '{ $slice }'.
+  .module-missing-name = Moduł powinien zawierać nazwę.
 
-  .module-missing-name = A module name was expected to be provided.
+  .no-such-page = Strona '{ $slice }' nie istnieje.
 
-  .no-such-page = The page '{ $slice }' doesn't exist.
-
-  .invalid-url = The URL '{ $slice }' is invalid.
+  .invalid-url = URL '{ $slice }' jest nieprawidłowy.
 
 ## Block Acceptance
 
