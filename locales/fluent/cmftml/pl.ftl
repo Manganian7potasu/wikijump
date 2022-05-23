@@ -9,17 +9,17 @@ cmftml-lint =
 
   .recursion-depth-exceeded = Zbyt dużo rekurencji w znaczniku.
 
-  .end-of-input = Typ reguły '{ $rule }' nie mógł zostać przetworzony przed osiągnięciem końca dokumentu.
+  .end-of-input = Reguła typu '{ $rule }' nie mogła zostać przetworzona przed osiągnięciem końca dokumentu.
 
-  .no-rules-matched = Wyszukiwanie '{ $slice }' nie zgadza się z żadnym źródłem, więc zostanie pokazany jako zwykły tekst.
+  .no-rules-matched = Wyszukiwanie '{ $slice }' nie zgadza się z żadnym źródłem, więc zostanie pokazane jako zwykły tekst.
 
-  .rule-failed = The rule '{ $rule }' failed to match here, and had to fallback another rule.
+  .rule-failed = Reguła '{ $rule }' nie wyszukała nic w tym miejscu i musiała wycofać inną regułę.
 
-  .not-start-of-line = The rule '{ $rule }' failed to match here, as it can only match on the start of a new line.
+  .not-start-of-line = Reguła '{ $rule }' nie wyszukała nic w tym miejscu, bo może szukać jedynie zaczynając od początku nowego wiersza.
 
-  .invalid-include = This include is invalid and won't be rendered.
+  .invalid-include = To włączenie jest nieprawidłowe i nie zostanie wygenerowane.
 
-  .list-empty = This list has nothing inside of it.
+  .list-empty = W tej liście nic się nie znajduje.
 
   .list-contains-non-item = This list has direct children that aren't list-item blocks.
 
